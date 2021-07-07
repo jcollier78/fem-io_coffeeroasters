@@ -1,0 +1,125 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #333D4B;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.title, h1, h2, h3, h4 {
+  margin: 0;
+  font-family: "Fraunces", serif;
+  color: #333D4B;
+}
+
+.title {
+  color: #83888F;
+  font-size: 150px;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 1.125;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 1.333;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.unstyled-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.btn-main {
+  background-color: #0E8784;
+  padding: 1em 3em;
+  border: none;
+  border-radius: 0.333em;
+  font-family: "Fraunces", serif;
+  font-size: 18px;
+  color: #FEFCF7;
+}
+
+.btn-main:hover {
+  background-color: #66D2CF;
+  cursor: pointer;
+}
+
+.btn-main:disabled {
+  background-color: #E2DEDB;
+}
+
+.option-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.option {
+  background-color: #F4F1EB;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  color: #333D4B;
+}
+
+.option:not(:last-child) {
+  margin-right: 20px;
+}
+
+.option:hover {
+  background-color: #FDD6BA;
+  cursor: pointer;
+}
+
+.option.active {
+  background-color: #0E8784;
+  color: #FEFCF7;
+}
+
+.option-title {
+  font-family: "Fraunces", serif;
+  font-size: 24px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,18 @@
+.btn-main {
+    background-color: $darkCyan;
+    padding: 1em 3em;
+    border: none;
+    border-radius: 0.333em;
+    font-family: $heading;
+    font-size: 18px;
+    color: $lightCream;
+}
+
+.btn-main:hover {
+    background-color: $lightCyan;
+    cursor: pointer;
+}
+
+.btn-main:disabled {
+    background-color: #E2DEDB;
+}

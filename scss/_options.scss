@@ -1,0 +1,32 @@
+.option-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.option {
+    background-color: #F4F1EB;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    color: $darkGreyBlue;
+}
+
+.option:not(:last-child) {
+    margin-right: 20px;
+}
+
+.option:hover {
+    background-color: $paleOrange;
+    cursor: pointer;
+}
+
+.option.active {
+    background-color: $darkCyan;
+    color: $lightCream;
+}
+
+.option-title {
+    font-family: $heading;
+    font-size: 24px;
+}
