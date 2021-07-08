@@ -1,0 +1,27 @@
+.title {
+    background-image: linear-gradient(to bottom, $grey, lighten($grey, 50%));
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    margin-bottom: 2rem;
+    font-size: 40px;
+}
+
+.collection-img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+
+}
+
+.collection-title {
+    margin-bottom: 24px;;
+    font-size: 24px;
+}
+
+.collection-body-text {
+    margin-bottom: 3rem;
+}

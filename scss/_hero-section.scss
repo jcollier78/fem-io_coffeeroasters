@@ -1,0 +1,19 @@
+.hero {
+    background-image: url('../images/mobile-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem 1rem;
+    border-radius: 10px;
+}
+
+.hero-title {
+    margin-bottom: 1.5rem;
+    font-size: 40px;
+    color: $lightCream;
+}
+
+.hero-body-text {
+    margin-bottom: 2.5rem;
+    font-size: 15px;
+    color: $lightCream;
+}

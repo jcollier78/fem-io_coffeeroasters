@@ -1,0 +1,53 @@
+.accordion-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-link.disabled,
+.accordion-link:hover.disabled {
+    opacity: 50%;
+    cursor: default;
+    pointer-events: none;
+}
+
+.accordion-link:hover {
+    cursor: pointer;
+}
+
+.accordion-link:hover .fa-chevron-down {
+    color: #66D2CF;
+}
+
+.accordion-link .fa-chevron-down {
+    transition: transform 500ms ease;
+}
+
+.accordion-link.open .fa-chevron-down {
+    transform: rotate(-180deg);
+    transform-origin: center;
+    transition: transform 500ms ease;
+}
+
+.accordion-link-title {
+    margin: 0;
+    font-family: $heading;
+    font-size: 40px;
+    color: $grey;
+}
+
+.fa-chevron-down {
+    font-size: 22px;
+    font-weight: bold;
+    color: $darkCyan;
+}
+
+.accordion-panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 500ms ease;
+}
+
+.accordion-body {
+    padding: 1rem;
+}
