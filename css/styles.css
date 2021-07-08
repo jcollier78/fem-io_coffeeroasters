@@ -388,4 +388,53 @@ p {
 .step-body-text {
   font-size: 15px;
 }
+
+.footer {
+  background-color: #333D4B;
+  padding: 3rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-logo-img {
+  margin-bottom: 3rem;
+}
+
+.footer-menu,
+.social {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-menu {
+  margin-bottom: 2.5rem;
+}
+
+.footer-menu-item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: #83888F;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.social a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #FEFCF7;
+}
 /*# sourceMappingURL=styles.css.map */
