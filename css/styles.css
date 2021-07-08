@@ -76,13 +76,14 @@ p {
 }
 
 .btn-main {
+  display: inline-block;
   background-color: #0E8784;
   padding: 0.9em 1.8em;
-  border: none;
   border-radius: 0.333em;
   font-family: "Fraunces", serif;
   font-size: 18px;
   color: #FEFCF7;
+  text-decoration: none;
 }
 
 .btn-main:hover {
@@ -90,8 +91,11 @@ p {
   cursor: pointer;
 }
 
-.btn-main:disabled {
+.btn-main.disabled,
+.btn-main:hover.disabled {
   background-color: #E2DEDB;
+  cursor: default;
+  pointer-events: none;
 }
 
 .option-list {
@@ -352,6 +356,36 @@ p {
 
 .feature-list-body-text {
   margin: 0;
+  font-size: 15px;
+}
+
+.how-it-works-title {
+  font-size: 24px;
+  color: #83888F;
+  margin-bottom: 80px;
+}
+
+.step {
+  margin-bottom: 4rem;
+}
+
+.step:last-of-type {
+  margin-bottom: 4.5rem;
+}
+
+.step-num {
+  font-family: "Fraunces", serif;
+  font-size: 72px;
+  color: #FDD6BA;
+  line-height: 1;
+}
+
+.step-title {
+  margin-bottom: 1.5rem;
+  font-size: 28px;
+}
+
+.step-body-text {
   font-size: 15px;
 }
 /*# sourceMappingURL=styles.css.map */

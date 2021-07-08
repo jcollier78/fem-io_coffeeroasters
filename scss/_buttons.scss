@@ -1,11 +1,12 @@
 .btn-main {
+    display: inline-block;
     background-color: $darkCyan;
     padding: 0.9em 1.8em;
-    border: none;
     border-radius: 0.333em;
     font-family: $heading;
     font-size: 18px;
     color: $lightCream;
+    text-decoration: none;
 }
 
 .btn-main:hover {
@@ -13,6 +14,9 @@
     cursor: pointer;
 }
 
-.btn-main:disabled {
+.btn-main.disabled,
+.btn-main:hover.disabled {
     background-color: #E2DEDB;
+    cursor: default;
+    pointer-events: none;
 }
