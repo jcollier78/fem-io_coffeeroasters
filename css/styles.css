@@ -299,4 +299,59 @@ p {
 .collection-body-text {
   margin-bottom: 3rem;
 }
+
+.why-us {
+  background-color: #333D4B;
+  padding: 2.5rem 1rem 38rem;
+  border-radius: 10px;
+}
+
+.why-us-title,
+.why-us-body-text {
+  color: #FEFCF7;
+}
+
+.why-us-title {
+  font-size: 28px;
+  margin-bottom: 1.5rem;
+}
+
+.why-us-body-text {
+  font-size: 15px;
+}
+
+.feature-list {
+  width: 85%;
+  margin: -36rem auto 7.5rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+.feature-list li {
+  background-color: #0E8784;
+  margin-bottom: 1.5rem;
+  padding: 4rem 2rem;
+  border-radius: 10px;
+}
+
+.feature-list-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+.feature-list-title,
+.feature-list-body-text {
+  color: #FEFCF7;
+}
+
+.feature-list-title {
+  margin-bottom: 2rem;
+  font-size: 24px;
+}
+
+.feature-list-body-text {
+  margin: 0;
+  font-size: 15px;
+}
 /*# sourceMappingURL=styles.css.map */
