@@ -36,7 +36,7 @@ menuIcon.addEventListener('click', () => {
         menuPanel.classList.remove('show');
         setTimeout(() => {
             menuPanel.style.display = 'none';
-        },300);    
+        },500);    
     }
     
 });

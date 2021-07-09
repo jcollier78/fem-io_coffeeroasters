@@ -268,14 +268,14 @@ p {
   overflow: hidden;
   z-index: 1;
   opacity: 0;
-  -webkit-transition: opacity 300ms ease;
-  transition: opacity 300ms ease;
+  -webkit-transition: opacity 500ms ease;
+  transition: opacity 500ms ease;
 }
 
 .primary-menu.show {
   opacity: 1;
-  -webkit-transition: opacity 300ms ease;
-  transition: opacity 300ms ease;
+  -webkit-transition: opacity 500ms ease;
+  transition: opacity 500ms ease;
 }
 
 .primary-menu-list {
