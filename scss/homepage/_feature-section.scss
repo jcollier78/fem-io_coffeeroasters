@@ -2,6 +2,11 @@
     background-color: $darkGreyBlue;
     padding: 2.5rem 1rem 38rem;
     border-radius: 10px;
+
+    @media (min-width: $tablet) {
+        text-align: center;
+        padding: 2.5rem 5rem 19rem;
+    }
 }
 
 .why-us-title,
@@ -11,7 +16,11 @@
 
 .why-us-title {
     font-size: 28px;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
+
+    @media (min-width: $tablet) {
+        font-size: 32px;
+    }
 }
 
 .why-us-body-text {
@@ -23,19 +32,35 @@
     margin: -36rem auto 7.5rem;
     padding: 0;
     list-style-type: none;
+
+    @media (min-width: $tablet) {
+        margin: -16.5rem auto 7.5rem;
+    }
 }
 
-.feature-list li {
+.feature-item {
     background-color: $darkCyan;
     margin-bottom: 1.5rem;
     padding: 4rem 2rem;
     border-radius: 10px;
+
+    @media (min-width: $tablet) {
+        display: flex;
+        align-items: center;
+        padding: 2.2rem 4rem;
+    }
 }
 
 .feature-list-img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
+
+    @media (min-width: $tablet) {
+        margin-bottom: 0;
+        margin-right: 3rem;
+        width: 56px;
+    }
 }
 
 .feature-list-title,
@@ -46,6 +71,10 @@
 .feature-list-title {
     margin-bottom: 2rem;
     font-size: 24px;
+
+    @media (min-width: $tablet) {
+        margin-bottom: 1rem;
+    }
 }
 
 .feature-list-body-text {

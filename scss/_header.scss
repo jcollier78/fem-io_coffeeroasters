@@ -6,6 +6,39 @@
     position: relative;
 }
 
+.desktop-menu {
+    display: none;
+
+    @media (min-width: $tablet) {
+        display: block;
+    }
+}
+
+.menu-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu-list a {
+    display: block;
+    margin-left: 0.625rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;          
+    color: $grey;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.mobile-menu {
+    @media (min-width: $tablet) {
+        display: none;
+    }
+}
+
 .mobile-menu-icon {
     width: 16px;
     height: 3px;
@@ -56,6 +89,10 @@
 .primary-menu.show {
     opacity: 1;
     transition: opacity 500ms ease;
+
+    @media (min-width: $tablet) {
+        display: none;
+    }
 }
 
 .primary-menu-list {

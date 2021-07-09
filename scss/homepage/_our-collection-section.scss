@@ -1,5 +1,5 @@
 .title {
-    background-image: linear-gradient(to bottom, $grey, lighten($grey, 50%));
+    background-image: linear-gradient(to bottom, $grey -100%, transparent);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -8,6 +8,26 @@
     -moz-text-fill-color: transparent;
     margin-bottom: 2rem;
     font-size: 40px;
+
+    @media (min-width: $tablet) {
+        margin-bottom: -50px;
+        font-size: 98px;
+        text-align: center;
+    }
+}
+
+.collection {
+    @media (min-width: $tablet) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+.collection > div {
+    flex: 1;
 }
 
 .collection-img {
@@ -15,10 +35,15 @@
     margin-right: auto;
     margin-bottom: 25px;
 
+    @media (min-width: $tablet) {
+        height: 180px;
+        margin-left: 0;
+        margin-right: 2.5rem;
+    }
 }
 
 .collection-title {
-    margin-bottom: 24px;;
+    margin-bottom: 24px;
     font-size: 24px;
 }
 

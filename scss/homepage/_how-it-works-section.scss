@@ -2,14 +2,43 @@
     font-size: 24px;
     color: $grey;
     margin-bottom: 80px;
+
+    @media (min-width: $tablet) {
+        margin-bottom: 2rem;
+    }
+}
+
+.separater {
+    display: none;
+
+    @media (min-width: $tablet) {
+        display: block;
+        margin-bottom: 3rem;
+    }
+}
+
+.steps {
+    
+    @media (min-width: $tablet) {
+        display: flex;
+        margin-bottom: 2rem;
+    }
 }
 
 .step {
     margin-bottom: 4rem;
+
+    @media (min-width: $tablet) {
+        margin: 0 2rem 0 0;
+    }
 }
 
 .step:last-of-type {
     margin-bottom: 4.5rem;
+
+    @media (min-width: $tablet) {
+        margin-bottom: 0;
+    }
 }
 
 .step-num {

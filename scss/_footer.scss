@@ -5,9 +5,15 @@
 }
 
 .footer-logo-img {
+    height: 24px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
+
+    @media (min-width: $tablet) {
+        height: 26px;
+        margin-bottom: 1.5rem;
+    }
 }
 
 .footer-menu,
@@ -19,11 +25,18 @@
 
 .footer-menu {
     margin-bottom: 2.5rem;
+
+    @media (min-width: $tablet) {
+        display: flex;
+        justify-content: center;
+    }
 }
 
-// .footer-menu-item:not(:last-child) {
-//     margin-bottom: 1rem;    
-// }
+.footer-menu-item:not(:last-child) {
+    @media (min-width: $tablet) {
+        margin-right: 2rem;
+    }  
+}
 
 .footer-menu a {
     display: block;
@@ -39,6 +52,19 @@
 .social {
     display: flex;
     justify-content: space-evenly;
+
+    @media (min-width: $tablet) {
+        justify-content: center;
+    }
+}
+
+.social-item {
+    
+    &:not(:last-child) {
+        @media (min-width: $tablet) {
+            margin-right: 2rem;
+        }
+    }
 }
 
 .social a {

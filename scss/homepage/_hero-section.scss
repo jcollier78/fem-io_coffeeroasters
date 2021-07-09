@@ -2,14 +2,35 @@
     background-image: url('../images/mobile-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 6rem 1rem;
-    border-radius: 10px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+
+    @media (min-width: $tablet) {
+        background-image: url('../images/tablet-background.jpg');
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+
+.hero-content {
+    
+    @media (min-width: $tablet) {
+        width: 65%;
+    }
 }
 
 .hero-title {
     margin-bottom: 1.5rem;
     font-size: 40px;
     color: $lightCream;
+
+    @media (min-width: $tablet) {
+        font-size: 48px;
+    }
 }
 
 .hero-body-text {
