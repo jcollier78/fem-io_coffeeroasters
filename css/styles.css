@@ -510,6 +510,11 @@ p {
   margin: 0;
 }
 
+.phone-link {
+  text-decoration: none;
+  color: #333D4B;
+}
+
 .footer {
   background-color: #333D4B;
   padding: 3rem 2rem;
