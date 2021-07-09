@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2.5rem;
+    position: relative;
 }
 
 .mobile-menu-icon {
@@ -39,4 +40,35 @@
 
 .primary-menu {
     display: none;
+    position: fixed;
+    background-image: linear-gradient(to bottom, $lightCream 40%, transparent);
+    top: 95px;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 300ms ease;
+}
+
+.primary-menu.show {
+    opacity: 1;
+    transition: opacity 300ms ease;
+}
+
+.primary-menu-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.primary-menu-list a {
+    display: block;
+    padding: 0.75rem 0;
+    text-decoration: none;
+    color: $darkGreyBlue;
+    font-family: $heading;
+    font-size: 24px;
 }

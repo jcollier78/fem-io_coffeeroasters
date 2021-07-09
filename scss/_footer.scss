@@ -5,6 +5,8 @@
 }
 
 .footer-logo-img {
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 3rem;
 }
 
@@ -19,11 +21,13 @@
     margin-bottom: 2.5rem;
 }
 
-.footer-menu-item:not(:last-child) {
-    margin-bottom: 1rem;    
-}
+// .footer-menu-item:not(:last-child) {
+//     margin-bottom: 1rem;    
+// }
 
 .footer-menu a {
+    display: block;
+    padding: 0.5rem;
     text-decoration: none;
     font-size: 12px;
     font-weight: 700;          

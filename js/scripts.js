@@ -20,8 +20,23 @@ accLink.forEach(item => {
 
 // mobile menu
 let menuIcon = document.querySelector('.mobile-menu');
+let menuPanel = document.querySelector('.primary-menu');
 
 // icon animation
 menuIcon.addEventListener('click', () => {
     menuIcon.classList.toggle('open');
+    if(menuIcon.classList.contains('open')){
+        document.querySelector('body').style.position = 'fixed';
+        menuPanel.style.display = 'block';
+        setTimeout(() => {
+            menuPanel.classList.add('show');
+        },1);  
+    } else {
+        document.querySelector('body').style.position = 'static';
+        menuPanel.classList.remove('show');
+        setTimeout(() => {
+            menuPanel.style.display = 'none';
+        },300);    
+    }
+    
 });

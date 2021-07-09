@@ -11,6 +11,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #FEFCF7;
   font-family: "Barlow", sans-serif;
   font-size: 16px;
   line-height: 1.625;
@@ -30,6 +31,7 @@ img {
 .container {
   max-width: 1280px;
   padding: 2.5rem 2rem;
+  margin: auto;
 }
 
 .title, h1, h2, h3, h4 {
@@ -213,6 +215,7 @@ p {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 2.5rem;
+  position: relative;
 }
 
 .mobile-menu-icon {
@@ -254,6 +257,40 @@ p {
 
 .primary-menu {
   display: none;
+  position: fixed;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #FEFCF7), to(transparent));
+  background-image: linear-gradient(to bottom, #FEFCF7 40%, transparent);
+  top: 95px;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: opacity 300ms ease;
+  transition: opacity 300ms ease;
+}
+
+.primary-menu.show {
+  opacity: 1;
+  -webkit-transition: opacity 300ms ease;
+  transition: opacity 300ms ease;
+}
+
+.primary-menu-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.primary-menu-list a {
+  display: block;
+  padding: 0.75rem 0;
+  text-decoration: none;
+  color: #333D4B;
+  font-family: "Fraunces", serif;
+  font-size: 24px;
 }
 
 .hero {
@@ -396,6 +433,8 @@ p {
 }
 
 .footer-logo-img {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 3rem;
 }
 
@@ -410,11 +449,9 @@ p {
   margin-bottom: 2.5rem;
 }
 
-.footer-menu-item:not(:last-child) {
-  margin-bottom: 1rem;
-}
-
 .footer-menu a {
+  display: block;
+  padding: 0.5rem;
   text-decoration: none;
   font-size: 12px;
   font-weight: 700;
