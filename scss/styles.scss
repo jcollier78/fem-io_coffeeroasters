@@ -1,11 +1,22 @@
+// Base styles and components
 @import 'variables';
 @import 'global';
 @import 'buttons';
 @import 'options';
 @import 'accordions';
 @import 'header';
-@import 'hero-section';
-@import 'our-collection-section';
-@import 'feature-section';
-@import 'how-it-works-section';
+
+// Homepage styles
+@import 'homepage/hero-section';
+@import 'homepage/our-collection-section';
+@import 'homepage/feature-section';
+@import 'homepage/how-it-works-section';
+
+// About us page styles
+@import 'about-us/about-hero-section';
+@import 'about-us/our-commitment-section';
+@import 'about-us/quality-section';
+@import 'about-us/headquarters-section';
+
+// Footer
 @import 'footer';

@@ -288,6 +288,7 @@ p {
   display: block;
   padding: 0.75rem 0;
   text-decoration: none;
+  text-transform: capitalize;
   color: #333D4B;
   font-family: "Fraunces", serif;
   font-size: 24px;
@@ -424,6 +425,89 @@ p {
 
 .step-body-text {
   font-size: 15px;
+}
+
+.hero-about {
+  background-image: url("../images/mobile-background-about-us.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 1rem;
+  border-radius: 10px;
+}
+
+.hero-about-title {
+  font-size: 28px;
+  color: #FEFCF7;
+  margin-bottom: 1rem;
+}
+
+.hero-about-body-text {
+  font-size: 15px;
+  color: #FEFCF7;
+  margin: 0;
+}
+
+.our-commitment {
+  margin-bottom: 12rem;
+}
+
+.our-commitment-img {
+  margin-bottom: 4rem;
+}
+
+.our-commitment-title {
+  font-size: 32px;
+  margin-bottom: 2rem;
+}
+
+.our-commitment-body-text {
+  font-size: 15px;
+}
+
+.quality {
+  background-color: #333D4B;
+  padding: 3rem 1.5rem 4rem;
+  border-radius: 10px;
+}
+
+.quality-img {
+  margin-top: -120px;
+  margin-bottom: 3.5rem;
+  border-radius: 10px;
+}
+
+.quality-title {
+  margin-bottom: 2rem;
+  font-size: 28px;
+  color: #FEFCF7;
+}
+
+.quality-body-text {
+  margin: 0;
+  font-size: 15px;
+  color: #FEFCF7;
+}
+
+.locations-title {
+  font-size: 24px;
+  color: #83888F;
+}
+
+.location-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+.location-title {
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+
+.location p {
+  margin: 0;
 }
 
 .footer {
