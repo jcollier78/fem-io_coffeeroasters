@@ -1,7 +1,8 @@
 .btn-main {
     display: inline-block;
     background-color: $darkCyan;
-    padding: 0.9em 1.8em;
+    padding: 0.9em 4.5em;
+    border: none;
     border-radius: 0.333em;
     font-family: $heading;
     font-size: 18px;
@@ -14,8 +15,8 @@
     cursor: pointer;
 }
 
-.btn-main.disabled,
-.btn-main:hover.disabled {
+.btn-main:disabled,
+.btn-main[disabled] {
     background-color: #E2DEDB;
     cursor: default;
     pointer-events: none;
