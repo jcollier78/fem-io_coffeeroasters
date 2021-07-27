@@ -1,0 +1,36 @@
+.hero-subscribe {
+    background-image: url('../images/subscribe-page/mobile/image-hero-blackcup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border-radius: 10px;
+
+    @media (min-width: $tablet) {
+        background-image: url('../images/subscribe-page/tablet/image-hero-blackcup.jpg');
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+.hero-subscribe-title {
+    font-size: 40px;
+    color: $lightCream;
+    padding-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-subscribe-body-text {
+    font-size: 15px;
+    color: $lightCream;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1.8;
+    margin: 0;
+
+    @media (min-width: $tablet) {
+        max-width: 68%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

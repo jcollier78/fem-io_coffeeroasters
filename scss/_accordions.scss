@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .accordion-link.disabled,
@@ -30,10 +31,16 @@
 }
 
 .accordion-link-title {
+    max-width: 80%;
     margin: 0;
     font-family: $heading;
-    font-size: 40px;
+    font-size: 24px;
     color: $grey;
+    text-align: left;
+
+    @media (min-width: $tablet) {
+        font-size: 32px;
+    }
 }
 
 .fa-chevron-down {
@@ -49,5 +56,5 @@
 }
 
 .accordion-body {
-    padding: 1rem;
+    // padding: 1rem;
 }

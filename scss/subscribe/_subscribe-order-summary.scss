@@ -1,0 +1,34 @@
+.order-summary {
+    background-color: $darkGreyBlue;
+    margin-bottom: 4rem;
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+    color: $white;
+    font-size: 16px;
+    text-align: left;
+
+    &-title {
+        margin-bottom: 0.5rem;
+        color: $white;
+        text-transform: uppercase;
+    }
+
+    &-body-text {
+        margin: 0;
+        font-family: $heading;
+        font-size: 24px;
+    }
+
+    @media (min-width: $tablet) {
+        padding: 2rem;
+    }
+
+}
+
+.selected-item {
+    color: $darkCyan;
+}
+
+.center {
+    text-align: center;
+}

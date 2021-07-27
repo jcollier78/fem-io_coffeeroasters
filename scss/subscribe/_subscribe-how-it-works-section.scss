@@ -1,0 +1,63 @@
+.subscribe-how-it-works {
+    background-image: url('../images/subscribe-page/mobile/bg-steps.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 1.7rem;
+    border-radius: 10px;
+
+    @media (min-width: $tablet) { 
+        background-image: url('../images/subscribe-page/tablet/bg-steps.png');
+    }
+}
+
+.separater {
+    display: none;
+
+    @media (min-width: $tablet) {
+        display: block;
+        margin-bottom: 3rem;
+    }
+}
+
+.subscribe-steps {
+    
+    @media (min-width: $tablet) {
+        display: flex;
+        margin-bottom: 0;
+    }
+}
+
+.subscribe-step {
+
+    &:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+
+    @media (min-width: $tablet) {
+        margin-right: 2rem;
+        
+        &:not(:last-child) {
+            margin-bottom: 0;
+        }
+    
+    }
+}
+
+.subscribe-step-num {
+    font-family: $heading;
+    font-size: 72px;
+    color: $paleOrange;
+    line-height: 1;
+}
+
+.subscribe-step-title {
+    margin-bottom: 1.5rem;
+    font-size: 28px;
+    color: $white;
+}
+
+.subscribe-step-body-text {
+    margin: 0;
+    font-size: 15px;
+    color: $white;
+}

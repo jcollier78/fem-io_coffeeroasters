@@ -8,11 +8,20 @@
     margin-right: auto;  
     margin-top: 4rem;
     margin-bottom: 2.5rem;
+
+    @media (min-width: $tablet) {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .location-title {
     font-size: 28px;
     margin-bottom: 1rem;
+
+    @media (min-width: $tablet) {
+        font-size: 24px;
+    }
 }
 
 .location p {
@@ -22,4 +31,19 @@
 .phone-link {
     text-decoration: none;
     color: $darkGreyBlue;
+}
+
+.locations-flex {
+
+    @media (min-width: $tablet) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.location {
+
+    @media (min-width: $tablet) {
+        width: 32%;
+    }
 }

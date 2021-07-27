@@ -5,6 +5,12 @@
     background-position: center;
     padding: 6rem 1rem;
     border-radius: 10px;
+
+    @media (min-width: $tablet) {
+        background-image: url('../images/tablet-background-about-us.jpg');
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
 }
 
 .hero-about-title {
@@ -17,4 +23,8 @@
     font-size: 15px;
     color: $lightCream;
     margin: 0;
+
+    @media (min-width: $tablet) {
+        max-width: 70%;
+    }
 }

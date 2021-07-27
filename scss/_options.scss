@@ -1,9 +1,13 @@
 .option-list {
     display: flex;
+    flex-direction: column;
     position: relative;
-    // margin: 0;
-    // padding: 0;
-    // list-style-type: none;
+    
+    @media (min-width: $tablet) {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+    }
 }
 
 .radio-option {
@@ -19,15 +23,25 @@
 }
 
 .option {
+    flex: 0 0 32%;
     display: block;
+    margin-bottom: 1rem;
     background-color: #F4F1EB;
-    padding: 2rem;
+    padding: 1.8rem;
     border-radius: 0.5rem;
     color: $darkGreyBlue;
-}
 
-.option:not(:last-child) {
-    margin-right: 20px;
+    &:last-child {
+        margin-bottom: 6rem;
+    }
+
+    @media (min-width: $tablet) {
+        margin-bottom: 0;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
 .option:hover {
@@ -36,6 +50,13 @@
 }
 
 .option-title {
+    margin-bottom: 0.875rem;
     font-family: $heading;
     font-size: 24px;
+    text-align: left;
+}
+
+.option-body-text {
+    margin: 0;
+    text-align: left;
 }

@@ -1,9 +1,29 @@
 .our-commitment {
     margin-bottom: 12rem;
+
+    @media (min-width: $tablet) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+    }
 }
 
 .our-commitment-img {
+    background-image: url('../images/man-making-coffee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: auto;
+    height: 450px;
     margin-bottom: 4rem;
+    border-radius: 10px;
+
+    @media (min-width: $tablet) {
+        margin-right: 2.5rem;
+        flex: 1 0 40%;
+        margin-bottom: 0;
+    }
 }
 
 .our-commitment-title {
@@ -13,4 +33,8 @@
 
 .our-commitment-body-text {
     font-size: 15px;
+
+    @media (min-width: $tablet) {
+        margin-bottom: 0;
+    }
 }
