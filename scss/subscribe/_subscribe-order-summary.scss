@@ -1,3 +1,25 @@
+.summary {
+    background-color: $darkGreyBlue;
+    margin: 1.5rem 0 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.summary-title {
+    margin: 1rem 0 0.875rem;
+    color: rgba($white, 0.5);
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.summary-body-text {
+    marign: 0;
+    font-family: $heading;
+    font-size: 24px;
+    color: $white;
+    text-align: left;
+}
+
 .modal {
     display: flex;
     align-items: center;
