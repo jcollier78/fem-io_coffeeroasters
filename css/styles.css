@@ -917,6 +917,16 @@ button {
   transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 
+.close-modal {
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
 .order-summary-content {
   padding: 1.5rem;
   border-bottom-left-radius: 10px;
@@ -932,6 +942,7 @@ button {
 }
 
 .order-summary-title {
+  position: relative;
   background-color: #333D4B;
   margin: 0;
   padding: 1.5rem 1.25rem;
@@ -940,7 +951,6 @@ button {
   color: #ffffff;
   font-family: "Fraunces", serif;
   font-size: 24px;
-  text-align: center;
 }
 
 .order-summary-body-text {

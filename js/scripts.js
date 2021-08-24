@@ -45,6 +45,7 @@ menuIcon.addEventListener('click', () => {
 // modal script
 const modal = document.querySelector('.modal');
 const trigger = document.querySelector('.trigger');
+const closeModal = document.querySelector('.close-modal');
 
 function toggleModal(){
     modal.classList.toggle("show-modal");
@@ -57,5 +58,6 @@ function windowOnClick(event){
 }
 
 trigger.addEventListener("click", toggleModal);
+closeModal.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
 

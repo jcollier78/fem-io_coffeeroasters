@@ -19,6 +19,16 @@
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 
+.close-modal {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
 .order-summary-content {
     padding: 1.5rem;
     border-bottom-left-radius: 10px;
@@ -33,6 +43,7 @@
     index: 10;
 
     &-title {
+        position: relative;
         background-color: $darkGreyBlue;
         margin: 0;
         padding: 1.5rem 1.25rem;
@@ -41,7 +52,6 @@
         color: $white;
         font-family: $heading;
         font-size: 24px;
-        text-align: center;
     }
 
     &-body-text {
