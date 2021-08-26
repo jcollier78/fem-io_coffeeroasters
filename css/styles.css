@@ -899,19 +899,18 @@ button {
 .summary {
   background-color: #333D4B;
   margin: 1.5rem 0 3rem;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 10px;
 }
 
 .summary-title {
-  margin: 1rem 0 0.875rem;
   color: rgba(255, 255, 255, 0.5);
   text-align: left;
   text-transform: uppercase;
 }
 
 .summary-body-text {
-  marign: 0;
+  margin: 0;
   font-family: "Fraunces", serif;
   font-size: 24px;
   color: #ffffff;
@@ -950,6 +949,13 @@ button {
   z-index: 100;
 }
 
+@media (min-width: 768px) {
+  .modal-content {
+    width: 65%;
+    margin: auto;
+  }
+}
+
 .order-summary-content {
   padding: 1.5rem;
   border-bottom-left-radius: 10px;
@@ -961,7 +967,6 @@ button {
   border-radius: 10px;
   font-size: 16px;
   text-align: left;
-  index: 10;
 }
 
 .order-summary-title {
@@ -981,12 +986,6 @@ button {
   font-family: "Fraunces", serif;
   font-size: 20px;
   color: #83888F;
-}
-
-@media (min-width: 768px) {
-  .order-summary {
-    padding: 2rem;
-  }
 }
 
 .confirm-text {

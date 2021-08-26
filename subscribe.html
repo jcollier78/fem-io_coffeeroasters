@@ -92,12 +92,13 @@
 
     <div class="container">
 
+
         <!-- accordions  -->
         <section class="no-margin">
             <div class="accordions">
 
                 <!-- accordion #1 -->
-                <div class="accordion-link">
+                <div id="how" class="accordion-link">
                     <p class="accordion-link-title">How do you drink your coffee?</p>
                     <i class="fas fa-chevron-down"></i>
                 </div>
@@ -105,22 +106,23 @@
                     <div class="accordion-body">
                         <div class="option-list">
 
-                            <input type="radio" name="drink-coffee" id="capsule" class="radio-option">
+                            <input type="radio" name="drink-coffee" id="capsule" class="radio-option" value="Capsule">
                             <label for="capsule" class="option">
                                 <p class="option-title">Capsule</p>
                                 <p class="option-body-text">Compatible with Nespresso systems and similar brewers
                                 </p>
                             </label>
 
-                            <input type="radio" name="drink-coffee" id="filter" class="radio-option">
+                            <input type="radio" name="drink-coffee" id="filter" class="radio-option" value="Filter">
                             <label for="filter" class="option">
                                 <p class="option-title">Filter</p>
-                                <p class="option-body-text">For pour over or drip methods like Aeropress, Chemex, and
+                                <p class="option-body-text">For pour over or drip methods like Aeropress, Chemex,
+                                    and
                                     V60
                                 </p>
                             </label>
 
-                            <input type="radio" name="drink-coffee" id="espresso" class="radio-option">
+                            <input type="radio" name="drink-coffee" id="espresso" class="radio-option" value="Espresso">
                             <label for="espresso" class="option">
                                 <p class="option-title">Espresso</p>
                                 <p class="option-body-text">Dense and finely ground beans for an intense, flavorful
@@ -132,7 +134,7 @@
                 </div>
 
                 <!-- accordion #2 -->
-                <div class="accordion-link">
+                <div id="type" class="accordion-link">
                     <p class="accordion-link-title">What type of coffee?</p>
                     <i class="fas fa-chevron-down"></i>
                 </div>
@@ -140,15 +142,17 @@
                     <div class="accordion-body">
                         <div class="option-list">
 
-                            <input type="radio" name="coffee-type" id="single-origin" class="radio-option">
+                            <input type="radio" name="coffee-type" id="single-origin" class="radio-option"
+                                value="Single Origin">
                             <label for="single-origin" class="option">
                                 <p class="option-title">Single Origin</p>
-                                <p class="option-body-text">Distinct, high quality coffee from a specific family-owned
+                                <p class="option-body-text">Distinct, high quality coffee from a specific
+                                    family-owned
                                     farm
                                 </p>
                             </label>
 
-                            <input type="radio" name="coffee-type" id="decaf" class="radio-option">
+                            <input type="radio" name="coffee-type" id="decaf" class="radio-option" value="Decaf">
                             <label for="decaf" class="option">
                                 <p class="option-title">Decaf</p>
                                 <p class="option-body-text">Just like regular coffee, except the caffeine has been
@@ -156,10 +160,11 @@
                                 </p>
                             </label>
 
-                            <input type="radio" name="coffee-type" id="blended" class="radio-option">
+                            <input type="radio" name="coffee-type" id="blended" class="radio-option" value="Blended">
                             <label for="blended" class="option">
                                 <p class="option-title">Blended</p>
-                                <p class="option-body-text">Combination of two or three dark roasted beans of organic
+                                <p class="option-body-text">Combination of two or three dark roasted beans of
+                                    organic
                                     coffees
                                 </p>
                             </label>
@@ -168,7 +173,7 @@
                 </div>
 
                 <!-- accordion #3 -->
-                <div class="accordion-link">
+                <div id="quantity" class="accordion-link">
                     <p class="accordion-link-title">How much would you like?</p>
                     <i class="fas fa-chevron-down"></i>
                 </div>
@@ -176,7 +181,7 @@
                     <div class="accordion-body">
                         <div class="option-list">
 
-                            <input type="radio" name="quantity" id="q250" class="radio-option">
+                            <input type="radio" name="quantity" id="q250" class="radio-option" value="250">
                             <label for="q250" class="option">
                                 <p class="option-title">250g</p>
                                 <p class="option-body-text">Perfect for the solo drinker. Yields about 12 delicious
@@ -184,7 +189,7 @@
                                 </p>
                             </label>
 
-                            <input type="radio" name="quantity" id="q500" class="radio-option">
+                            <input type="radio" name="quantity" id="q500" class="radio-option" value="500">
                             <label for="q500" class="option">
                                 <p class="option-title">500g</p>
                                 <p class="option-body-text">Perfect option for a couple. Yields about 40 delectable
@@ -192,10 +197,11 @@
                                 </p>
                             </label>
 
-                            <input type="radio" name="quantity" id="q1000" class="radio-option">
+                            <input type="radio" name="quantity" id="q1000" class="radio-option" value="1000">
                             <label for="q1000" class="option">
                                 <p class="option-title">1000g</p>
-                                <p class="option-body-text">Perfect for offices and events. Yields about 90 delightful
+                                <p class="option-body-text">Perfect for offices and events. Yields about 90
+                                    delightful
                                     cups.
                                 </p>
                             </label>
@@ -204,7 +210,7 @@
                 </div>
 
                 <!-- accordion #4 -->
-                <div class="accordion-link">
+                <div id="grind-option" class="accordion-link">
                     <p class="accordion-link-title">Want us to grind them?</p>
                     <i class="fas fa-chevron-down"></i>
                 </div>
@@ -212,14 +218,14 @@
                     <div class="accordion-body">
                         <div class="option-list">
 
-                            <input type="radio" name="grind" id="wholebean" class="radio-option">
+                            <input type="radio" name="grind" id="wholebean" class="radio-option" value="Wholebean">
                             <label for="wholebean" class="option">
                                 <p class="option-title">Wholebean</p>
                                 <p class="option-body-text">Best choice if you cherish the full sensory experience
                                 </p>
                             </label>
 
-                            <input type="radio" name="grind" id="filter-grind" class="radio-option">
+                            <input type="radio" name="grind" id="filter-grind" class="radio-option" value="Filter">
                             <label for="filter-grind" class="option">
                                 <p class="option-title">Filter</p>
                                 <p class="option-body-text">For drip or pour-over coffee methods such as V60 or
@@ -227,10 +233,11 @@
                                 </p>
                             </label>
 
-                            <input type="radio" name="grind" id="cafetiere" class="radio-option">
+                            <input type="radio" name="grind" id="cafetiere" class="radio-option" value="Cafetiére">
                             <label for="cafetiere" class="option">
                                 <p class="option-title">Cafetiére</p>
-                                <p class="option-body-text">Course ground beans specially suited for french press coffee
+                                <p class="option-body-text">Course ground beans specially suited for french press
+                                    coffee
                                 </p>
                             </label>
                         </div>
@@ -238,7 +245,7 @@
                 </div>
 
                 <!-- accordion #5 -->
-                <div class="accordion-link">
+                <div id="delivery" class="accordion-link">
                     <p class="accordion-link-title">How often should we deliver?</p>
                     <i class="fas fa-chevron-down"></i>
                 </div>
@@ -246,30 +253,29 @@
                     <div class="accordion-body">
                         <div class="option-list">
 
-                            <input type="radio" name="deliver" id="weekly" class="radio-option">
+                            <input type="radio" name="deliver" id="weekly" class="radio-option" value="Every Week">
                             <label for="weekly" class="option">
-                                <p class="option-title">Every week</p>
+                                <p class="option-title">Every Week</p>
                                 <p class="option-body-text">$7.20 per shipment. Includes free first-class shipping.
                                 </p>
                             </label>
 
-                            <input type="radio" name="deliver" id="biweekly" class="radio-option">
+                            <input type="radio" name="deliver" id="biweekly" class="radio-option" value="Every 2 Weeks">
                             <label for="biweekly" class="option">
-                                <p class="option-title">Every 2 weeks</p>
+                                <p class="option-title">Every 2 Weeks</p>
                                 <p class="option-body-text">$9.60 per shipment. Includes free priority shipping.
                                 </p>
                             </label>
 
-                            <input type="radio" name="deliver" id="monthly" class="radio-option">
+                            <input type="radio" name="deliver" id="monthly" class="radio-option" value="Every Month">
                             <label for="monthly" class="option">
-                                <p class="option-title">Every month</p>
+                                <p class="option-title">Every Month</p>
                                 <p class="option-body-text">$12.00 per shipment. Includes free priority shipping.
                                 </p>
                             </label>
                         </div>
                     </div>
                 </div>
-
             </div>
 
             <div class="summary">
