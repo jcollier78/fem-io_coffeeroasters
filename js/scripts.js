@@ -127,7 +127,7 @@ function updateOrder() {
 
         htmlModal = html + `<p class="confirm-text">Is this correct? You can proceed to checkout or go back to plan selection if something is off. Subscription discount codes can also be redeemed at the checkout. </p><button class="btn-main checkout">Checkout - $14.00 / mo</button>`;
     } else {
-        html = `"I drink my coffee as <span class="selected-item">${coffee}</span>, with a <span class="selected-item">${type}</span> type of bean. <span class="selected-item">${quantity}g</span> ground ala <span class="selected-item">${grind}</span>, sent to me <span class="selected-item">${deliver}</span>."`;
+        html = `     "I drink my coffee as <span class="selected-item">${coffee}</span>, with a <span class="selected-item">${type}</span> type of bean. <span class="selected-item">${quantity}g</span> ground ala <span class="selected-item">${grind}</span>, sent to me <span class="selected-item">${deliver}</span>."`;
 
         htmlModal = html + `<p class="confirm-text">Is this correct? You can proceed to checkout or go back to plan selection if something is off. Subscription discount codes can also be redeemed at the checkout. </p><button class="btn-main checkout">Checkout - $14.00 / mo</button>`;
     }

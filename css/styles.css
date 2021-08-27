@@ -275,6 +275,10 @@ button {
   text-transform: uppercase;
 }
 
+.menu-list a:hover {
+  color: #000000;
+}
+
 @media (min-width: 768px) {
   .mobile-menu {
     display: none;
@@ -1064,6 +1068,10 @@ button {
   text-transform: uppercase;
 }
 
+.footer-menu a:hover {
+  color: #ffffff;
+}
+
 .social {
   display: flex;
   justify-content: space-evenly;
@@ -1085,5 +1093,9 @@ button {
   text-decoration: none;
   font-size: 24px;
   color: #FEFCF7;
+}
+
+.social a:hover {
+  color: #FDD6BA;
 }
 /*# sourceMappingURL=styles.css.map */

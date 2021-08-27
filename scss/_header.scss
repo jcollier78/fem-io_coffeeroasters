@@ -31,6 +31,10 @@
     color: $grey;
     letter-spacing: 1px;
     text-transform: uppercase;
+
+    &:hover {
+        color: $black;
+    }
 }
 
 .mobile-menu {
